@@ -58,26 +58,29 @@ python main.py
 
 
 
-The script will:
-Load and process daily stock data
-Find optimal bandwidth for Nadaraya-Watson estimation
-Compute daily variance estimates using the kernel method
-Process intraday data and calculate realized measures
-Generate comparative plots
-Identify days with largest differences between estimates
-Output
-The program outputs:
-Optimal bandwidth parameter
-Comparative plots of different variance estimates
-Dates with maximum differences between estimators
-Intraday price plots for significant dates
-Methodology
-The Nadaraya-Watson estimator uses:
-Epanechnikov kernel for weight calculation
-Cross-validation for bandwidth selection
-Time series structure preservation
-Realized measures use:
-5-minute return intervals
-Parzen kernel for realized kernel estimation
-Trading hours from 9:30 AM to 4:00 PM
+## The script will:
+- Load and process daily stock data
+- Find optimal bandwidth for Nadaraya-Watson estimation
+- Compute daily variance estimates using the kernel method
+- Process intraday data and calculate realized measures
+- Generate comparative plots
+- Identify days with largest differences between estimates
+
+## Output
+
+- The program outputs:
+- Optimal bandwidth parameter
+- Comparative plots of different variance estimates
+- Dates with maximum differences between estimators
+- Intraday price plots for significant dates
+
+## Methodology
+- The Nadaraya-Watson estimator uses:
+- Epanechnikov kernel for weight calculation
+- Cross-validation for bandwidth selection
+- Time series structure preservation
+- Realized measures use:
+- 5-minute return intervals
+- Parzen kernel for realized kernel estimation
+- Trading hours from 9:30 AM to 4:00 PM
 
