@@ -52,7 +52,10 @@ The project expects two data files:
 Run the main script:
 
 ```python
-python main.py
+python main.py 
+```
+
+
 
 
 The script will:
